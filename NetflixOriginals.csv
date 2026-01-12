@@ -5,7 +5,7 @@ The App,Science fiction/Drama,"December 26, 2019",79,2.6,Italian
 The Open House,Horror thriller,"January 19, 2018",94,3.2,English
 Kaali Khuhi,Mystery,"October 30, 2020",90,3.4,Hindi
 Drive,Action,"November 1, 2019",147,3.5,Hindi
-Leyla Everlasting,Comedy,"December 4, 2020",112,3.7,Turkish
+Leyla Everlasting,Comedy,"December 4, 2020",112,,Turkish
 The Last Days of American Crime,Heist film/Thriller,"June 5, 2020",149,3.7,English
 Paradox,Musical/Western/Fantasy,"March 23, 2018",73,3.9,English
 Sardar Ka Grandson,Comedy,"May 18, 2021",139,4.1,Hindi
@@ -19,7 +19,7 @@ Ghost Stories,Horror anthology,"January 1, 2020",144,4.3,Hindi
 The Last Thing He Wanted,Political thriller,"February 21, 2020",115,4.3,English
 What Happened to Mr. Cha?,Comedy,"January 1, 2021",102,4.3,Korean
 Death Note,Horror thriller,"August 25, 2017",100,4.4,English
-"Hello Privilege. It's Me, Chelsea",Documentary,"September 13, 2019",64,4.4,English
+"Hello Privilege. It's Me, Chelsea",Documentary,"September 13, 2019",64,4.4,
 Secret Obsession,Thriller,"July 18, 2019",97,4.4,English
 Sextuplets,Comedy,"August 16, 2019",99,4.4,English
 The Girl on the Train,Thriller,"February 26, 2021",120,4.4,Hindi
@@ -34,7 +34,7 @@ I Am the Pretty Thing That Lives in the House,Horror,"October 28, 2016",89,4.6,E
 Paris Is Us,Romance drama,"February 22, 2019",83,4.6,French
 Porta dos Fundos: The First Temptation of Christ,Comedy,"December 3, 2019",46,4.6,Portuguese
 Rattlesnake,Horror,"October 25, 2019",85,4.6,English
-The Players,Comedy,"July 15, 2020",88,4.6,Italian
+The Players,Comedy,"July 15, 2020",,4.6,Italian
 We Are One,Documentary,"July 14, 2020",86,4.6,French
 Finding Agnes,Drama,"November 30, 2020",105,4.7,Filipino
 IO,Science fiction/Drama,"January 18, 2019",95,4.7,English
@@ -74,7 +74,7 @@ Ghost Lab,Horror,"May 26, 2021",117,5.2,Thai
 Girlfriend's Day,Comedy,"February 14, 2017",70,5.2,English
 Handsome: A Netflix Mystery Movie,Comedy,"May 5, 2017",81,5.2,English
 Hubie Halloween,Comedy,"October 7, 2020",103,5.2,English
-Ibiza,Comedy,"May 25, 2018",94,5.2,English
+Ibiza,Comedy,"May 25, 2018",94,5.2,
 Rim of the World,Science fiction adventure,"May 24, 2019",98,5.2,English
 Sandy Wexler,Comedy,"April 14, 2017",131,5.2,English
 See You Yesterday,Science fiction,"May 17, 2019",87,5.2,English
@@ -106,7 +106,7 @@ Naked,Comedy,"August 11, 2017",96,5.4,English
 Outside the Wire,Action/Science fiction,"January 15, 2021",114,5.4,English
 The Princess Switch: Switched Again,Romantic comedy,"November 19, 2020",97,5.4,English
 Under the Riccione Sun,Romantic teenage drama,"July 1, 2020",101,5.4,Italian
-A Very Murray Christmas,Comedy / Musical,"December 4, 2015",56,5.5,English
+A Very Murray Christmas,Comedy / Musical,"December 4, 2015",56,,English
 Been So Long,Musical,"October 26, 2018",100,5.5,English
 Dead Kids,Thriller,"December 1, 2019",94,5.5,Filipino
 Get the Grift,Comedy,"April 28, 2021",94,5.5,Portuguese
@@ -115,7 +115,7 @@ House Arrest,Comedy,"November 15, 2019",104,5.5,Hindi
 Kevin Hart's Guide to Black History,Variety show,"February 8, 2019",63,5.5,English
 Love Wedding Repeat,Romantic comedy,"April 10, 2020",100,5.5,English
 Mute,Science fiction/Mystery,"February 23, 2018",126,5.5,English
-Òlòt?ré,Crime drama,"October 2, 2020",106,5.5,English
+ï¿½lï¿½t?rï¿½,Crime drama,"October 2, 2020",106,5.5,English
 Red Dot,Thriller,"February 11, 2021",86,5.5,Swedish
 Ride or Die,Psychological thriller drama,"April 15, 2021",142,5.5,Japanese
 Step Sisters,Comedy,"January 19, 2018",108,5.5,English
@@ -171,7 +171,7 @@ Choked: Paisa Bolta Hai,Drama,"June 5, 2020",114,5.8,Hindi
 Class of '83,Drama,"August 21, 2020",98,5.8,Hindi
 Extinction,Science fiction/Thriller,"July 27, 2018",95,5.8,English
 Happy Anniversary,Romantic comedy,"March 30, 2018",78,5.8,English
-I Am All Girls,Thriller,"May 14, 2021",107,5.8,English
+I Am All Girls,Thriller,"May 14, 2021",107,5.8,
 Let It Snow,Romantic comedy,"November 8, 2019",92,5.8,English
 Mascots,Mockumentary,"October 13, 2016",95,5.8,English
 Operation Christmas Drop,Romantic comedy,"November 5, 2020",96,5.8,English
@@ -179,7 +179,7 @@ Rajma Chawal,Comedy-drama,"November 30, 2018",118,5.8,Hindi
 Rich in Love,Romantic comedy,"April 30, 2020",105,5.8,Portuguese
 Rising High,Satire,"April 17, 2020",94,5.8,German
 Rodney King,One-man show,"April 28, 2017",52,5.8,English
-Sierra Burgess Is a Loser,Romantic comedy-drama,"September 7, 2018",105,5.8,English
+Sierra Burgess Is a Loser,Romantic comedy-drama,"September 7, 2018",,5.8,English
 Small Crimes,Dark comedy,"April 28, 2017",95,5.8,English
 Special Correspondents,Satire,"April 29, 2016",100,5.8,English
 TAU,Science fiction/Thriller,"June 29, 2018",97,5.8,English
@@ -240,7 +240,7 @@ The Killer,Western,"November 10, 2017",99,6.1,Portuguese
 The Lovebirds,Romantic comedy,"May 22, 2020",87,6.1,English
 The Most Hated Woman in America,Biopic,"March 24, 2017",92,6.1,English
 The Perfection,Horror-thriller,"May 24, 2019",90,6.1,English
-Tribhanga – Tedhi Medhi Crazy,Drama,"January 15, 2021",95,6.1,Hindi
+Tribhanga ï¿½ Tedhi Medhi Crazy,Drama,"January 15, 2021",95,6.1,Hindi
 Unknown Origins,Thriller,"August 28, 2020",96,6.1,Spanish
 Work It,Dance comedy,"August 7, 2020",93,6.1,English
 Alien Xmas,Stop Motion,"November 20, 2020",42,6.2,English
@@ -295,7 +295,7 @@ Anelka: Misunderstood,Documentary,"August 5, 2020",94,6.4,French
 "Ariana Grande: Excuse Me, I Love You",Concert Film,"December 21, 2020",97,6.4,English
 ARQ,Science fiction/Thriller,"September 16, 2016",88,6.4,English
 Birders,Documentary,"September 25, 2019",37,6.4,English/Spanish
-Como Caído del Cielo,Musical comedy,"December 24, 2019",112,6.4,Spanish
+Como Caï¿½do del Cielo,Musical comedy,"December 24, 2019",112,6.4,Spanish
 First Match,Sports-drama,"March 30, 2018",102,6.4,English
 Fractured,Thriller,"October 11, 2019",100,6.4,English
 Irreplaceable You,Drama,"February 16, 2018",96,6.4,English
@@ -389,7 +389,7 @@ The Old Guard,Superhero/Action,"July 10, 2020",124,6.7,English
 Tony Robbins: I Am Not Your Guru,Documentary,July 15. 2016,116,6.7,English
 Upstarts,Drama,"October 18, 2019",112,6.7,Hindi
 22 July,Drama,"October 10, 2018",144,6.8,English
-7 años,Drama,"October 28, 2016",76,6.8,Spanish
+7 aï¿½os,Drama,"October 28, 2016",76,6.8,Spanish
 A Futile and Stupid Gesture,Biographical/Comedy,"January 26, 2018",101,6.8,English
 A Life of Speed: The Juan Manuel Fangio Story,Documentary,"March 20, 2020",92,6.8,Spanish
 A Love Song for Latasha,Documentary,"September 21, 2020",19,6.8,English
@@ -475,7 +475,7 @@ ReMastered: Tricky Dick & the Man in Black,Documentary,"November 2, 2018",58,7.1
 Rooting for Roona,Documentary,"October 15, 2020",41,7.1,Bengali
 The Devil All the Time,Psychological thriller,"September 16, 2020",138,7.1,English
 The Dig,Drama,"January 29, 2021",112,7.1,English
-The Great Hack,Documentary,"July 24, 2019",114,7.1,English
+The Great Hack,Documentary,"July 24, 2019",,7.1,English
 The White Tiger,Drama,"January 22, 2021",125,7.1,English
 To All the Boys I've Loved Before,Romantic comedy,"August 17, 2018",99,7.1,English
 American Murder: The Family Next Door,Documentary,"September 30, 2020",82,7.2,English
@@ -561,7 +561,7 @@ Road to Roma,Making-of,"February 11, 2020",72,7.7,Spanish
 Roma,Drama,"December 14, 2018",135,7.7,Spanish
 If Anything Happens I Love You,Animation / Short,"November 20, 2020",12,7.8,English
 The Irishman,Crime drama,"November 27, 2019",209,7.8,English
-The Trial of the Chicago 7,Drama,"October 16, 2020",130,7.8,English
+The Trial of the Chicago 7,Drama,"October 16, 2020",130,7.8,
 A Secret Love,Documentary,"April 29, 2020",82,7.9,English
 Icarus,Documentary,"August 4, 2017",120,7.9,English
 Marriage Story,Drama,"December 6, 2019",136,7.9,English
