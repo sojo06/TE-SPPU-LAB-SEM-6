@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    
+
     <xsl:template match="/employees">
         <html>
             <head>
@@ -48,26 +48,26 @@
                         <xsl:for-each select="employee">
                             <xsl:sort select="dateOfJoining" order="ascending" />
                             <tr>
-                                <td><xsl:value-of select="id"/></td>
-                                <td><xsl:value-of select="name"/></td>
-                                <td><xsl:value-of select="position"/></td>
-                                <td><xsl:value-of select="department"/></td>
+                                <td><xsl:value-of select="id" /></td>
+                                <td><xsl:value-of select="name" /></td>
+                                <td><xsl:value-of select="position" /></td>
+                                <td><xsl:value-of select="department" /></td>
                                 
                                 <td>
-                                    <xsl:if test="salary &gt;= 80000">
-                                        <span class="high-salary"><xsl:value-of select="salary"/></span>
-                                    </xsl:if>
-                                    <xsl:else>
-                                        <xsl:if test="salary &gt;= 60000">
-                                            <span class="medium-salary"><xsl:value-of select="salary"/></span>
-                                        </xsl:if>
-                                        <xsl:else>
-                                            <span class="low-salary"><xsl:value-of select="salary"/></span>
-                                        </xsl:else>
-                                    </xsl:else>
+                                    <xsl:choose>
+                                        <xsl:when test="number(salary) &gt;= 80000">
+                                            <span class="high-salary"><xsl:value-of select="salary" /></span>
+                                        </xsl:when>
+                                        <xsl:when test="number(salary) &gt;= 60000">
+                                            <span class="medium-salary"><xsl:value-of select="salary" /></span>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <span class="low-salary"><xsl:value-of select="salary" /></span>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
                                 </td>
                                 
-                                <td><xsl:value-of select="dateOfJoining"/></td>
+                                <td><xsl:value-of select="dateOfJoining" /></td>
                             </tr>
                         </xsl:for-each>
                     </tbody>
