@@ -12,7 +12,7 @@
     
     <employee>
         <id>102</id>
-        <name>B</name>
+        <name>Bhusan</name>
         <position>HR Manager</position>
         <department>Human Resources</department>
         <salary>80000</salary>
@@ -20,7 +20,7 @@
     </employee>
     <employee>
         <id>109</id>
-        <name>C</name>
+        <name>pranav</name>
         <position>Marketing Specialist</position>
         <department>Marketing</department>
         <salary>70000</salary>
@@ -28,10 +28,10 @@
     </employee>
     <employee>
         <id>104</id>
-        <name>A</name>
+        <name>Arayan</name>
         <position>Software Engineer</position>
         <department>IT</department>
-        <salary>75000</salary>
+        <salary>700</salary>
         <dateOfJoining>2015-01-20</dateOfJoining>
     </employee>
     <employee>
@@ -44,7 +44,7 @@
     </employee>
     <employee>
         <id>106</id>
-        <name>E</name>
+        <name>atharva</name>
         <position>HR Executive</position>
         <department>Human Resources</department>
         <salary>68000</salary>
@@ -52,7 +52,7 @@
     </employee>
     <employee>
         <id>107</id>
-        <name>F</name>
+        <name>ved</name>
         <position>Software Engineer</position>
         <department>IT</department>
         <salary>80000</salary>
@@ -60,7 +60,7 @@
     </employee>
     <employee>
         <id>101</id>
-        <name>XYZ</name>
+        <name>vedant</name>
         <position>Software Engineer</position>
         <department>IT</department>
         <salary>70000</salary>
@@ -69,7 +69,7 @@
     
    <employee>
         <id>105</id>
-        <name>D</name>
+        <name>vinay</name>
         <position>Software Engineer</position>
         <department>IT</department>
         <salary>76000</salary>
