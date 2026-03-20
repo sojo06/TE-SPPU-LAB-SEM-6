@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <display-name>EbookShop</display-name>
+
+    <!-- This mapping is optional because EbookServlet uses @WebServlet("/ebooks").
+         Keep it if your setup does not scan annotations. -->
+    <servlet>
+        <servlet-name>EbookServlet</servlet-name>
+        <servlet-class>EbookServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EbookServlet</servlet-name>
+        <url-pattern>/ebooks</url-pattern>
+    </servlet-mapping>
+
+</web-app>
