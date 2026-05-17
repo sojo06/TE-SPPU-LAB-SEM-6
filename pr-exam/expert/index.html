@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+</head>
+
+<body>
+    <div class="" container>
+        <h3 style="font-family: 'Times New Roman', Times, serif; background-color: blue;">Hospital Management System
+        </h3>
+        <form action="">
+            <fieldset>
+                <legend>Symptoms:</legend>
+                <input type="checkbox" name="fever" id="fever">
+               
+                <label for="fever">Fever</label>
+               
+                <input type="checkbox" name="headache" id="headache">
+                <label for="headache">Head Ache</label>
+                <input type="checkbox" name="Cough" id="cough">
+                <label for="cough">Cough</label>
+                <input type="checkbox" name="StomachAche" id="stomachache">
+                <label for="stomachache">Stomach Ache</label>
+                <input type="checkbox" name="chestPain" id="chestpain">
+                <label for="chestpain">Chest Pain</label>
+                <button type="button" onclick="analyzeSymptoms()">Analyze Symptoms</button>
+            </fieldset>
+        </form>
+    </div>
+    <div id="result" class="result">Results are here: <br></div>
+    <script > 
+        function analyzeSymptoms() {
+    fever = document.querySelector("#fever").checked;
+    headache = document.querySelector("#headache").checked;
+    cough = document.querySelector("#cough").checked;
+    stomachache = document.querySelector("#stomachache").checked;
+    chestpain = document.querySelector("#chestpain").checked;
+
+    let disease = "Unknown"
+    let dept = "Unknown"
+    let urgency = "Unknown"
+
+    if (fever && headache) {
+        disease = "Flu"
+        dept = "General"
+        urgency = "Medium"
+    }
+    else if (chestpain) {
+        disease = "Heart Attack"
+        dept = "Cardiology"
+        urgency = "High"
+    }
+    else if (fever && cough) {
+        disease = "Pneumonia"
+        dept = "Respiratory"
+        urgency = "High"
+    }
+    else if (stomachache) {
+        disease = "Appendicitis"
+        dept = "Gastro"
+        urgency = "High"
+    }
+    result = document.querySelector("#result");
+    result.innerHTML = `<div> You may have : ${disease}</div><div> Go to : ${dept}</div><div>Urgency : ${urgency}</div>`
+}
+    </script>
+</body>
+
+</html>

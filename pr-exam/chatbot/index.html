@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Customer Support Chatbot</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+
+        #chatbox {
+            width: 500px;
+            height: 400px;
+            border: 1px solid black;
+            background: white;
+            margin: auto;
+            padding: 10px;
+            overflow-y: scroll;
+        }
+
+        #userInput {
+            width: 400px;
+            padding: 10px;
+        }
+
+        button {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 style="text-align: center;">Rule-Based Chatbot</h2>
+
+    <div id="chatbox"></div>
+
+    <center>
+
+        <input type="text" id="userInput" placeholder="Type message here">
+
+        <button onclick="sendMessage()">Send</button>
+
+    </center>
+
+    <script>
+
+        function chatbotResponse(message) {
+
+            message = message.toLowerCase();
+
+            if (message.includes("hi") || message.includes("hello")) {
+                return "Hello! How can I help you?";
+            }
+
+            else if (message.includes("order")) {
+                return "Please provide your Order ID.";
+            }
+
+            else if (message.includes("return")) {
+                return "Products can be returned within 7 days.";
+            }
+
+            else if (message.includes("refund")) {
+                return "Refund will be processed within 5 working days.";
+            }
+
+            else if (message.includes("bye")) {
+                return "Thank you! Visit again.";
+            }
+
+            else {
+                return "Sorry! I did not understand.";
+            }
+        }
+
+        function sendMessage() {
+
+            let input = document.getElementById("userInput").value;
+
+            let chatbox = document.getElementById("chatbox");
+
+            chatbox.innerHTML += "<p><b>You:</b> " + input + "</p>";
+
+            let response = chatbotResponse(input);
+
+            chatbox.innerHTML += "<p><b>Bot:</b> " + response + "</p>";
+
+            document.getElementById("userInput").value = "";
+        }
+
+    </script>
+
+</body>
+
+</html>
